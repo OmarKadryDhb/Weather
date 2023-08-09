@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/22b1f7ecb4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/indexStyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="navbar-example">
+        <div class="container">
+            <div class="weather-icon me-auto d-flex">
+                <img src="images/logo.png" alt="" class="img-fluid me-3 " >
+                <div class="title d-flex flex-column text-white">
+                    <span class="fw-bold">Weather</span>
+                    <small class="">tagline goes here</small>
+                </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ms-5">
+                  <li class="nav-item rounded-2">
+                    <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item rounded-2">
+                    <a class="nav-link text-light" href="#about">News</a>
+                  </li>
+                  <li class="nav-item rounded-2">
+                    <a class="nav-link text-light" href="#services">Live Cameras</a>
+                  </li><li class="nav-item rounded-2">
+                    <a class="nav-link text-light" href="#work">Photos</a>
+                  </li><li class="nav-item rounded-2">
+                    <a class="nav-link text-light" href="./contact.html">Contact</a>
+                  </li>
+            
+                </ul>
+               </div>
+        </div>
+    </nav>
+    <main class="pt-5">
+        <div class="container">
+          <div class="input-group p-2 mb-5 rounded-3">
+            <input type="text" id="SerachInput" class="form-control" placeholder="Find your location..." aria-label="Find your location..." aria-describedby="button-addon2">
+            <button class="btn rounded-2 pe-4 ps-4" type="button" id="button-addon2">Find</button>
+          </div>
+        </div>
+    </main>
+    <div class="content">
+      <div class="container">
+      <div class="card-group translate-middle-y" id="weatherData">
+        <div class="card1 col-md-4" id="data1">
+          
+        </div>
+
+        <div class="card2 col-md-4 text-center d-flex flex-column justify-content-center align-content-center" id="data2">
+       
+        </div>
+      
+      
+
+        <div class="card3 col-md-4 text-center d-flex flex-column justify-content-center align-content-center" id="data3">
+         
+        </div>  
+      </div>
+      
+        
+        
+        
+      </div>
+      </div>
+    </div>
+
+    <footer class="d-flex justify-content-center align-items-center">
+      <div class="container d-flex justify-content-around">
+        <div class="input d-flex flex-column pt-2">
+        <div class="input-group p-2 mb-5 rounded-3 ">
+          <input type="text" class="form-control" placeholder="Enter Your Email to Subcribe..." aria-label="Find your location..." aria-describedby="button-addon2">
+          <button class="btn rounded-2 pe-4 ps-4" type="button" id="button-addon2">Subcribe</button>
+          </div>
+          <div class="input-title">
+          <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </div>
+        
+        </div>
+        <div class="social-media">
+          <div class="get-in-smedia mt-3 d-flex justify-content-between">
+            <div class="card-icon rounded-circle d-flex justify-content-center align-items-center">
+              <i class="fa-brands fa-facebook fs-3 m-2"></i>
+            </div>
+            <div class="card-icon rounded-circle d-flex justify-content-center align-items-center">
+              <i class="fa-brands fa-instagram fs-3 m-2"></i>          
+            </div>
+            <div class="card-icon rounded-circle d-flex justify-content-center align-items-center">
+              <i class="fa-brands fa-twitter fs-3 m-2"></i>
+            </div>
+            <div class="card-icon rounded-circle d-flex justify-content-center align-items-center">
+              <i class="fa-brands fa-linkedin fs-3 m-2"></i>
+            </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/in.js"></script>
+</body>
+</html>

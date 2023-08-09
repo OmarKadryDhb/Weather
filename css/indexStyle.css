@@ -1,0 +1,127 @@
+:root{
+    --main-color: rgb(8, 8, 41);
+    --sec-color:#009AD8;
+    --font-robo:'Roboto', sans-serif
+}
+    
+nav{
+    height: 15vh;
+    background-color:var(--main-color);
+}
+.collapse .nav-item{
+    border: solid 1px var(--sec-color);
+    margin: 10px;
+    
+}
+main{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center center;
+    min-height: 30vh;
+    
+}
+main .container .input-group{
+    background-color: var(--main-color);
+}
+main .container .input-group button{
+    background-color: var(--sec-color);
+    color: white;
+}
+.container input::placeholder{
+    color: rgb(122, 118, 118);
+   
+}
+.container input{
+    background-color: var(--main-color);
+    border: 0;
+}
+.weather-icon .title{
+    font-family: var(--font-robo);
+}
+.weather-icon .title small{
+    font-size:  10px;
+}
+.content{
+    background-color: var(--main-color);
+    height: 30vh;
+}
+.content .container .card1{
+    background-color: rgb(39, 39, 71);
+    color:rgb(186, 190, 194);
+    border-top-left-radius: 5px;
+    height: 35vh;    
+}
+.content .container .card1 .card-body h1{
+  font-size: 110px;
+  font-family: var(--font-robo);
+}
+.content .container .card1 .card-body h1 i{
+    transform: translateY(-60px);
+  }
+.content .container .card1 .card-header{
+    background-color: rgb(32, 32, 59);
+    color:rgb(186, 190, 194);
+}
+.content .container .card2{
+    background-color: rgb(29, 29, 59);
+    color:rgb(186, 190, 194);
+    height: 35vh;    
+}
+.content .container .card2 .card-body{
+    font-family: var(--font-robo);
+}
+.content .container .card2 .card-header{
+    background-color: rgb(24, 24, 49);
+    color:rgb(186, 190, 194)
+}
+.content .container .card3{
+    background-color: rgb(39, 39, 71);
+    color:rgb(186, 190, 194);
+    border-top-right-radius: 5px;
+    height: 35vh;    
+}
+.content .container .card3 .card-body{
+    font-family: var(--font-robo);
+}
+.content .container .card3 .card-header{
+    background-color: rgb(31, 31, 58);
+    color:rgb(186, 190, 194);
+}
+footer {
+    background-color: rgb(39, 39, 71);;
+    height: 25vh;
+}
+footer .social-media{
+    width: 17%;
+}
+footer .input{
+    width: 60%;
+}
+footer .input-group{
+    background-color: var(--main-color);
+}
+footer .input-group button{
+    background-color: var(--sec-color);
+    color: white;
+}
+footer .input-title{
+    color:rgb(186, 190, 194);
+}
+footer .card-icon{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--main-color);
+    transition: all 0.5s;
+}
+footer  .card-icon:hover{
+    background-color: var(--sec-color);
+}
+footer .card-icon i{
+    font-size: 3rem;
+    color: #009AD8;
+    transition: all 0.5s;
+}
+
+footer  .card-icon:hover i{
+    color:white;
+}

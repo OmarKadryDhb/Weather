@@ -1,0 +1,89 @@
+:root{
+    --main-color: rgb(8, 8, 41);
+    --sec-color:#009AD8;
+    --font-robo:'Roboto', sans-serif
+}
+nav{
+    height: 15vh;
+    background-color:var(--main-color);
+}
+.collapse .nav-item{
+    border: solid 1px var(--sec-color);
+    margin: 10px;
+    
+}
+body{
+    background-color: var(--main-color);
+}
+main .container .header{
+    background-color: rgb(39, 39, 71);
+}
+main .container .header span a{
+    text-decoration: none;
+}
+main .container .header span a:hover{
+    text-decoration:  underline;
+}
+main .container .address-card{
+    height: 30vh;
+    background-color: rgb(39, 39, 71);;
+    width: 35%;
+}
+main .container .address-card .location{
+    transform: translateY(205px);
+}
+main .container .contact-card{
+    height: 50vh;
+    width: 50%;
+}
+main .container .contact-card table input{
+    background: var(--main-color);
+    transition: all 0.5s;
+}
+main .container .contact-card table input::placeholder{
+    color: gray;
+}
+main .container .contact-card textarea{
+    background: var(--main-color);
+}
+main .container .contact-card textarea::placeholder{
+    color: gray;
+}
+footer {
+    background-color: rgb(39, 39, 71);;
+    height: 25vh;
+}
+footer .social-media{
+    width: 17%;
+}
+footer .input{
+    width: 60%;
+}
+footer .input-group{
+    background-color: var(--main-color);
+}
+footer .input-group button{
+    background-color: var(--sec-color);
+    color: white;
+}
+footer .input-title{
+    color:rgb(186, 190, 194);
+}
+footer .card-icon{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--main-color);
+    transition: all 0.5s;
+}
+footer  .card-icon:hover{
+    background-color: var(--sec-color);
+}
+footer .card-icon i{
+    font-size: 3rem;
+    color: #009AD8;
+    transition: all 0.5s;
+}
+
+footer  .card-icon:hover i{
+    color:white;
+}
